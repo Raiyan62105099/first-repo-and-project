@@ -1,4 +1,7 @@
 /* common css tags for everything */
+*{
+    font-family: 'Inter', sans-serif;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -21,18 +24,46 @@ img {
     clear: both;
 }
 
-/* ===================================================================== */
-.header {
-    height: 700px;
-    text-align: center;
-    background-image: url(../images/other/donation12.png);
+/* ================================= common or global css ==================================== */
+/* =======================================header section start========================= */
+
+.banner{
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/other/donation14.webp);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
-
-.heading {
-    color: white;
-    justify-content: center;
-    padding-top: 100px;
+.container{
+    width: auto;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+.title{
+    padding-top: 150px;
+}
+.sub-title{
+    margin: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
+.button-primary{
+    width: 100px;
+    height: 40px;
+    background-color: tomato;
+    border: 0;
+    margin-top: 30px;
+    color: #fff;
+}
+/* =======================================header section end========================= */
+/* =======================================main start================================= */
+.description-top{
+    text-align: center;
+    color: black;
+    margin: 200px;
+    font-weight: 800;
+    font-size: larger;
+    font-family: inherit;
 }
