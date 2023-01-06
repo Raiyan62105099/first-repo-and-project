@@ -1,7 +1,8 @@
 /* common css tags for everything */
-*{
+* {
     font-family: 'Inter', sans-serif;
 }
+
 * {
     margin: 0px;
     padding: 0px;
@@ -27,29 +28,33 @@ img {
 /* ================================= common or global css ==================================== */
 /* =======================================header section start========================= */
 
-.banner{
+.banner {
     width: 100%;
     height: 650px;
     background-image: url(../images/other/donation14.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container{
+
+.container {
     width: auto;
     margin: 0;
     color: #fff;
     text-align: center;
 }
-.title{
+
+.title {
     padding-top: 150px;
 }
-.sub-title{
+
+.sub-title {
     margin: 20px;
     padding-right: 100px;
     padding-left: 100px;
     text-align: center;
 }
-.button-primary{
+
+.button-primary {
     width: 100px;
     height: 40px;
     background-color: tomato;
@@ -57,13 +62,109 @@ img {
     margin-top: 30px;
     color: #fff;
 }
+
 /* =======================================header section end========================= */
 /* =======================================main start================================= */
-.description-top{
+.description-top {
     text-align: center;
     color: black;
-    margin: 200px;
+    margin: 200px auto 40px;
     font-weight: 800;
     font-size: larger;
     font-family: inherit;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.box-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 45px;
+    font-weight: 800;
+    justify-content: center;
+
+}
+
+.box-1 {
+    padding: 30px 20px;
+    border: 1px solid tomato;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0 20px 0;
+}
+.box-1:hover{
+    background-color: tomato;
+    transition: 0.7s;
+    opacity: 0.6;
+}
+
+
+.box-2 {
+    padding: 30px 20px;
+    border: 1px solid tomato;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0 20px 0;
+    background-color: tomato;
+}
+.box-2:hover{
+    background-color: tomato;
+    transition: 0.7s;
+    opacity: 0.6;
+}
+
+.box-3 {
+    padding: 30px 20px;
+    border: 1px solid tomato;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0 20px 0
+}
+.box-3:hover{
+    background-color: tomato;
+    transition: 0.7s;
+    opacity: 0.6;
+}
+
+.box-4 {
+    padding: 30px 20px;
+    border: 1px solid tomato;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0 20px 0
+}
+.box-4:hover{
+    background-color: tomato;
+    transition: 0.7s;
+    opacity: 0.6;
+}
+
+.box-5 {
+    padding: 30px 20px;
+    border: 1px solid tomato;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0 20px 0
+}
+.box-5:hover{
+    background-color: tomato;
+    transition: 0.7s;
+    opacity: 0.6;
+}
+/* =======================================amount section===================== */
+.amount-write{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid whitesmoke;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: block;
+
 }
