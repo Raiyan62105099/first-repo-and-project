@@ -1,28 +1,28 @@
-
 /* common css tags for everything */
-*{
+* {
     margin: 0px;
     padding: 0px;
     outline: 0px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul ol{
+ul ol {
     list-style-type: none;
 }
 
-img{
-vertical-align: middle;
+img {
+    vertical-align: middle;
 }
 
-.clr{
+.clr {
     clear: both;
 }
+
 /* ===================================================================== */
-.header{
+.header {
     height: 700px;
     text-align: center;
     background-image: url(../images/other/donation12.png);
@@ -30,7 +30,8 @@ vertical-align: middle;
     background-position: center;
     background-size: cover;
 }
-.header h1{
+
+.heading {
     color: white;
     justify-content: center;
     padding-top: 100px;
